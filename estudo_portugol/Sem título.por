@@ -1,30 +1,35 @@
 programa {
   funcao inicio() {
+
+    escreva("Nota\n")
+
+
+    inteiro n =0
+    leia (n)
+
+    escolha (n){
+      caso 90 e 91 e 92 e 93 :
+      escreva("A")
+      pare
+      caso 80:
+      escreva("B")
+      pare
+      caso 70: 
+      escreva("c")
+      pare
+      caso 60:
+      escreva("D")
+      pare
+      caso contrario:
+      escreva("F")
+      pare
+
+
+
+
+
+
+    }
     
- escreva("Sua nota:\n")
-
- real nota = 0
- leia (nota)
-
-/* progama de notas */
-  se (nota>=90)
- escreva("A")
-
-  senao se (nota >=80 e nota < 90)
- escreva("B")
-  
-  senao se (nota >= 70 e nota < 80)
-  escreva("C")
-
-  senao se (nota >= 60 e nota < 70 )
-  escreva ("D")
-
-  senao 
-  escreva("F")
-
-
-
-
-
   }
 }
